@@ -9,16 +9,16 @@ public partial class CommandsControlsDemo : ContentPage
 
     private void btnTest_Clicked(object sender, EventArgs e)
     {
-        DisplayAlert("Test", "This is a demo", "Ok");
+		DisplayAlert("Test", "This is a demo", "Ok");
     }
 
     private void RadioButton_CheckedChanged(object sender, CheckedChangedEventArgs e)
     {
-        DisplayAlert("RadioButton", $"Changed: {e.Value}", "Ok");
+        DisplayAlert("Test", "Redio button changed", "Ok");
     }
 
     private void SwipeItem_Invoked(object sender, EventArgs e)
     {
-        DisplayAlert("SwipeView", $"Element Tapped", "Ok");
+        DisplayAlert("Test", "Item Tapped", "Ok");
     }
 }

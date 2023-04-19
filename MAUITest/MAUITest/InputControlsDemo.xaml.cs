@@ -6,16 +6,14 @@ public partial class InputControlsDemo : ContentPage
 	{
 		InitializeComponent();
 	}
-    void slider_ValueChanged(System.Object sender, Microsoft.Maui.Controls.ValueChangedEventArgs e)
+
+    private void slider_ValueChanged(object sender, ValueChangedEventArgs e)
     {
-        lblSlider.Text = slider.Value.ToString();
+		labelSlider.Text = slider.Value.ToString();
     }
 
-    void stepper_ValueChanged(System.Object sender, Microsoft.Maui.Controls.ValueChangedEventArgs e)
+    private void stepper_ValueChanged(object sender, ValueChangedEventArgs e)
     {
-        if (stepper != null)
-        {
-            lblSlider.Text = stepper.Value.ToString();
-        }
+        labelSlider.Text = stepper.Value.ToString();
     }
 }
