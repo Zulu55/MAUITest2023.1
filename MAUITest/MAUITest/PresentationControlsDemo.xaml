@@ -20,7 +20,6 @@
                 TextColor="Black"
                 FontSize="Title"
                 FontAttributes="Bold"
-                FontSize="Large"
                 HorizontalTextAlignment="Center"/>
             <Line
                 Stroke="Purple"
@@ -30,14 +29,6 @@
                 Y2="50"
                 StrokeThickness="10"/>
             <Rectangle
-                Fill="Salmon"
-                Stroke="Black"
-                StrokeThickness="5"
-                X1="0"
-                Y1="1"
-                X2="500"
-                Y2="0"/>
-            <Rectangle
                 Fill="Aqua"
                 HeightRequest="50"
                 HorizontalOptions="End"
@@ -45,8 +36,7 @@
                 Stroke="Black"
                 StrokeThickness="5"
                 RadiusX="10"
-                RadiusY="10"
-                HorizontalOptions="End"/>
+                RadiusY="10"/>
             <HorizontalStackLayout HorizontalOptions="Center">
                 <Polygon
                     Fill="LightBlue"
@@ -74,7 +64,6 @@
                 Fill="#3aff0b"
                 Data="M 10,100 L 100,100 100,50Z"
                 HorizontalOptions="Center"
-                Fill="#44ffba"
                 Stroke="Black"/>
             <Border
                 Stroke="#C49B33"
