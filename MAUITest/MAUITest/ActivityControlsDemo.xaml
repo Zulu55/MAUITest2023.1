@@ -8,5 +8,8 @@
         VerticalOptions="Center" 
         HorizontalOptions="Center">
         <ActivityIndicator IsRunning="True"/>
+        <ProgressBar 
+            WidthRequest="300"
+            Progress="0.5"/>
     </VerticalStackLayout>
 </ContentPage>
