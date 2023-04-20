@@ -50,15 +50,11 @@
                 <SwipeView.LeftItems>
                     <SwipeItems>
                         <SwipeItem
-                        BackgroundColor="LightGreen"
-                        IconImageSource="dotnet_bot.svg"  
                             Invoked="SwipeItem_Invoked"
                             IconImageSource="dotnet_bot.svg"
                             BackgroundColor="LightGreen"
                             Text="Favorite"/>
                         <SwipeItem
-                        BackgroundColor="LightPink"
-                        IconImageSource="dotnet_bot.svg"  
                             Invoked="SwipeItem_Invoked"
                             IconImageSource="dotnet_bot.svg"
                             BackgroundColor="LightPink"
