@@ -18,17 +18,17 @@
         VerticalOptions="Center" 
         HorizontalOptions="Center">
         <Label
-            FontSize="50"
+            FontSize="30"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             Text="{Binding Name}"/>
         <Label
-            FontSize="50"
+            FontSize="30"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             Text="{Binding Phone}"/>
         <Label
-            FontSize="50"
+            FontSize="30"
             HorizontalOptions="Center"
             VerticalOptions="Center"
             Text="{Binding Address}"/>
